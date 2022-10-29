@@ -32,7 +32,7 @@ int main()
     cout << "Please enter the size of the array : ";
     cin >> size;
 
-    int arr[size]; // declaring an array 'a' of size n
+    int arr[size]; // declaring an array 'arr' of size n
 
     // taking inputs in the array
     cout << "Please enter the values in the array in sorted order :\n ";
@@ -40,7 +40,7 @@ int main()
         cin >> arr[i];
 
     int key;
-    // Taking input of the key(i.e the nuber to be searched in the array)
+    // Taking input of the key(i.e the number to be searched in the array)
     cout << "Enter the value to be searched : ";
     cin >> key;
 
